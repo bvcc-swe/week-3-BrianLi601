@@ -6,6 +6,7 @@ import { Button } from "./ui/button";
 const COLORS = ["#f87171", "#60a5fa", "#34d399", "#fbbf24", "#a78bfa"];
 
 const Week3LiveDemo = () => {
+  // Test
   // Counter state
   const [count, setCount] = useState(0);
   // Name input state
