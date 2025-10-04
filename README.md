@@ -145,6 +145,21 @@ This course is designed as a complete 10-week experience where you'll build a pr
 
 **Success milestone:** Your app responds to user interactions smoothly
 
+** What I learn
+- State Management: All inputs (Name, Email, Age, Color) are managed by dedicated useState hooks.
+- Validation Strategy: Validation is executed on submit and on blur (when the user leaves an input) to ensure data accuracy before processing.
+- Color Handling: A JavaScript object maps hex codes to user-friendly color names, which are used in the greeting message.
+
+** What I build
+- Feature Category	Implementation Details
+- Name & Email	Standard controlled inputs. Name is required (3-30 chars). Email is optional but validates using Regex if filled.
+- Age Input (New)	Required, numerical input validated for a range of 13 to 120.
+- Color Selection (New)	Implemented as a Dropdown (Select) using color names, with the corresponding hex code setting the card's background color.
+- Form Actions	Submit checks all fields; "Clear Form" button resets all state variables and errors.
+- Local Storage (Bonus)	Uses useEffect to remember and pre-fill the last successfully entered name on mount.
+- Real-Time Feedback (Bonus)	Shows the current character count for the name field.
+- Personalized Greeting	Displays a comprehensive message including the user's Name, Age, and selected Color Name.
+
 #### Week 4: Data Processing & Analysis 🟡 MEDIUM
 **What you'll learn:**
 - Data manipulation and transformation

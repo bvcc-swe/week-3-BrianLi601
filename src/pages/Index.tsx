@@ -18,6 +18,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 // 📊 Data-related imports - components that handle your data
 import DataUpload from '@/components/DataUpload';
 import Dashboard from '@/components/Dashboard';
+import NameInput from '@/components/NameInput';
 import { DataRow } from '@/types/data';
 // 🆕 WEEK 3: Import NameInput demo
 // import NameInput from '@/components/NameInput';
@@ -59,9 +60,9 @@ const Index = () => {
             Upload your dataset and instantly discover insights, visualize trends, and explore your data with interactive charts and analytics.
           </p>
           {/* 🆕 WEEK 3: Live Event Handling Demo (removed NameInput from homepage) */}
-          {/* <div className="mt-8 mb-8 flex justify-center">
+          <div className="mt-8 mb-8 flex justify-center">
             <NameInput />
-          </div> */}
+          </div>
         </div>
 
         {/* 🔧 WEEK 2: ADD YOUR PROGRESS COMPONENT HERE! */}
